@@ -1,31 +1,32 @@
-#🚨 Network Intrusion Detection System (NIDS)
+# 🚨 Network Intrusion Detection System (NIDS)
 An end-to-end Machine Learning project that detects whether network traffic is Normal or Malicious (Attack) using the NSL-KDD dataset, and provides real-time predictions through a Streamlit web application.
 
-📌 Project Overview
+## 📌 Project Overview
 With the rapid growth of cyber threats, detecting malicious network activity has become essential. This project builds a Network Intrusion Detection System (NIDS) that classifies network connections into:
 
 ✅ Normal Traffic
 🚨 Attack Traffic
 The model is trained on historical network data and deployed using Streamlit for interactive predictions.
 
-🎯 Objectives
+## 🎯 Objectives
 Analyze network traffic dataset
 Identify patterns of cyber attacks
 Build a classification model
 Deploy an interactive web application
 Provide real-time intrusion detection
-📂 Dataset Information
+## 📂 Dataset Information
 Dataset: NSL-KDD (KDDTrain+)
 Type: Tabular dataset for intrusion detection
 Total Features: 41 + 2 labels
-🔑 Important Features:
+## 🔑 Important Features:
 protocol_type
 service
 flag
 src_bytes, dst_bytes
 count, srv_count
 Error rates (serror_rate, rerror_rate, etc.)
-⚙️ Tech Stack
+
+## ⚙️ Tech Stack 
 👨‍💻 Programming & Libraries
 Python 🐍
 Pandas, NumPy
@@ -65,8 +66,8 @@ Hyperparameter Tuning
 
 GridSearchCV on XGBoost
 Deployment
-
-Streamlit web app for real-time prediction
+ 
+## Streamlit web app for real-time prediction
 🧠 Model Performance
 Metric	Value (Approx)
 Accuracy	High
@@ -76,20 +77,16 @@ F1 Score	High
 ROC-AUC	Excellent
 ✅ XGBoost performed better than Logistic Regression.
 
-🖥️ App Preview
-Below is the interface of the NIDS Streamlit App:
-
-App Preview
-
-🚀 How to Run the Project
-1️⃣ Clone Repository
+## 🚀 How to Run the Project
+Clone Repository
 git clone https://github.com/shaktisingh15102006/Network-Intrusion-Detection-System.git
 cd Network-Intrusion-Detection-System
 2️⃣ Install Requirements
 pip install -r requirements.txt
 3️⃣ Run Streamlit App
-streamlit run network_app.py
-📁 Project Structure
+streamlit run network_app.py\
+
+## 📁 Project Structure
 NIDS_Project/
 │── network_app.py        # Streamlit Application
 │── KDDTrain+.txt         # Dataset
@@ -120,7 +117,7 @@ Add dashboard analytics
 🙌 Author
 shakti singh🎓 Data Science Student
 
-📬 Contact
+## 📬 Contact
 GitHub: https://github.com/shaktisingh15102006
 Email: shakti singh
 ⭐ Support
