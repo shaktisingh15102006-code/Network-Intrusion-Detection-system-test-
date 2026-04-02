@@ -83,7 +83,7 @@ App Preview
 
 🚀 How to Run the Project
 1️⃣ Clone Repository
-git clone https://github.com/SanjuVerma123/Network-Intrusion-Detection-System.git
+git clone https://github.com/shaktisingh15102006/Network-Intrusion-Detection-System.git
 cd Network-Intrusion-Detection-System
 2️⃣ Install Requirements
 pip install -r requirements.txt
@@ -118,11 +118,11 @@ Model saving (joblib/pickle)
 Deployment on Streamlit Cloud / AWS
 Add dashboard analytics
 🙌 Author
-Karan 🎓 Data Science Student
+shakti singh🎓 Data Science Student
 
 📬 Contact
-GitHub: https://github.com/SanjuVerma123
-Email: SANJU VERMA
+GitHub: https://github.com/shaktisingh15102006
+Email: shakti singh
 ⭐ Support
 If you found this project helpful:
 
