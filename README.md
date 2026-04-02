@@ -1,4 +1,4 @@
-🚨 Network Intrusion Detection System (NIDS)
+#🚨 Network Intrusion Detection System (NIDS)
 An end-to-end Machine Learning project that detects whether network traffic is Normal or Malicious (Attack) using the NSL-KDD dataset, and provides real-time predictions through a Streamlit web application.
 
 📌 Project Overview
